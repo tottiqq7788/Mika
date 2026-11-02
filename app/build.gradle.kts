@@ -81,6 +81,8 @@ kotlin {
 
 dependencies {
     implementation(project(":core"))
+    implementation(libs.shizuku.api)
+    implementation(libs.shizuku.provider)
     implementation(libs.protobuf.lite)
     implementation(platform(libs.compose.bom))
     implementation(libs.compose.ui)
